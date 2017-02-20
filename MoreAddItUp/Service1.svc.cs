@@ -14,7 +14,7 @@ namespace MoreAddItUp
     {
         public string GetData (int value)
         {
-            return string.Format ("You entered the integer number: {0}", value);
+            return string.Format ("You entered the integer number - did it trigger the UI build? : {0}", value);
         }
 
         public CompositeType GetDataUsingDataContract (CompositeType composite)
